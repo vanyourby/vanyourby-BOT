@@ -40,7 +40,7 @@ const start = (client = new Client()) => {
             }))
      // listening on Incoming Call
         client.onIncomingCall((call) => {
-            client.sendText(call.peerJid, 'Maaf, saya tidak bisa menerima panggilan. nelfon = block!.\nbila ingin di unblock kamu harus bedonasi dan hubungi whatsapp admin: 081283468899 ')
+            client.sendText(call.peerJid, 'Maaf, saya tidak bisa menerima panggilan. nelfon = block!.\nbila ingin di unblock kamu harus bedonasi dan hubungi IG @vanyourby ')
             client.contactBlock(call.peerJid)
             //ban.push(call.peerJid)
             //fs.writeFileSync('./lib/banned.json', JSON.stringify(ban))
