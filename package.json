@@ -1,19 +1,19 @@
 {
-  "name": "Sansekai-BOT",
+  "name": "Vanyourby-BOT",
   "version": "10.0.0",
-  "description": "Sansekai BOT Whatsapp",
+  "description": "vanyourby BOT Whatsapp",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shansekai/Sansekai-BOT.git"
+    "url": "hhttps://github.com/vanyourby/vanyourby-BOT.git"
   },
   "bugs": {
-    "url": "https://github.com/shansekai/Sansekai-BOT/issues"
+    "url": "https://github.com/vanyourby/vanyourby-BOT/issues"
   },
-  "homepage": "https://github.com/shansekai/Sansekai-BOT",
+  "homepage": "https://github.com/vanyourby/vanyourby-BOT",
   "license": "ISC",
   "dependencies": {
     "@open-wa/wa-automate": "^2.0.27",
