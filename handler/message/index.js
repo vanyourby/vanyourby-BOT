@@ -81,7 +81,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
         const blockNumber = await client.getBlockedIds()
         const groupAdmins = isGroupMsg ? await client.getGroupAdmins(groupId) : ''
         const groupMembers = isGroupMsg ? await client.getGroupMembersId(groupId) : ''
-        const ownerNumber = '6281282810290@c.us'
+        const ownerNumber = '6282111237689@c.us'
         const isOwner = sender.id === ownerNumber
         const isBlocked = blockNumber.includes(sender.id) === true
         const isGroupAdmins = groupAdmins.includes(sender.id) || false
@@ -131,7 +131,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
         case 'joingrup':
         case 'masuk':
         case 'join':
-            await client.sendText(from, 'Untuk mengundang bot ke grup yang kamu kelola, kamu harus berdonasi terlebih dahulu.\nuntuk info pembayaran donasi ketik : *#donasi*\n\nKirim bukti donasi kalian untuk konfirmasi masuk ke grup ke whatsapp ini : https://wa.me/6281283468899')
+            await client.sendText(from, 'Untuk mengundang bot ke grup yang kamu kelola, kamu harus berdonasi terlebih dahulu.\nuntuk info pembayaran donasi ketik : *#donasi*\n\nKirim bukti donasi kalian untuk konfirmasi masuk ke grup ke whatsapp ini : https://wa.me/6282111237689')
             break*/
          case 'readme':
             await client.sendText(from, menuId.textReadme(pushname))
@@ -166,7 +166,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
                 const imageBase64 = `data:${_mimetype};base64,${mediaData.toString('base64')}`
                 client.sendImageAsSticker(from, imageBase64).then(() => {
                     /*client.reply(from, 'Untuk membantu bot tetap aktif, kamu bisa bantu bot dengan berdonasi. ketik: *#donasi*\nUntuk melihat info donasi.')*/
-                    client.reply(from, 'Hai kak sudah selesai nih,di follow dong Instagram : https://www.instagram.com/ahdalvi_\n\n*Terima Kasih* ', id)
+                    client.reply(from, 'Hai kak sudah selesai nih,di follow dong Instagram : https://www.instagram.com/vanyourby\n\n*Terima Kasih* ', id)
                     console.log(`Durasi pembuatan ${processTime(t, moment())} Detik`)
                 })
             } else if (args[0] === 'nobg') {
@@ -187,7 +187,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
                     .then(() => client.reply(from, `Here\'s your sticker \n\nProcessed for ${processTime(moment())} _Second_`))
                     .then((r) => (!r && r !== undefined) ? client.sendText(from, 'Maaf, link yang kamu kirim tidak memuat gambar. [No Image]') : null)
             } else {
-                await client.reply(from, 'Gambarnya mana bodoh, kalau gak ada gambar mana bisa buat sticker.', id)
+                await client.reply(from, 'Gambarnya mana, kalau gak ada gambar mana bisa buat sticker.', id)
             }
             break
         }
@@ -892,7 +892,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
 -------------------------------------------------------------------
 ${biography}
 -------------------------------------------------------------------
-_*Processing Sukses Sansekai BOT*_`
+_*Processing Sukses Vanyourby BOT*_`
                             client.sendText(from, hasil);
                             limitAdd(serial);
                             browser.close();
