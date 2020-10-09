@@ -15,17 +15,21 @@ Dengan menggunakan source code / bot ini maka anda setuju dengan Syarat dan Kond
     • ujaran kebencian atau diskriminasi berdasarkan usia, jenis kelamin, identitas gender, ras, seksualitas, agama, kebangsaan
 
 
-Best regards, *Lokub Bot*.`
+Best regards, *@vanyourby*.`
 }
 
 exports.textMenu = (pushname) => {
     return `
 Hai kak *${pushname}*
-Selamat Datang di *[Lokub Bot]*
+Selamat Datang di *[vanyourby BOT]*
 Tolong gunakan bot ini sebijak mungkin ya,Terimakasih
 
-Berikut dibawah ini adalah menu yang tersedia pada *[Lokub Bot]*
+Berikut dibawah ini adalah menu yang tersedia pada *vanyourby BOT*
 
+┏[ Donasi ]
+╿
+┠➽ *#donasi [donasi yuk]* :)
+╿
 ┏[ Fun Commands ]
 ╿
 ┠➽ *#teksmaker [#readme]*
@@ -72,7 +76,6 @@ Berikut dibawah ini adalah menu yang tersedia pada *[Lokub Bot]*
 ┠➽ *#qrcode [ubah teks jadi qr]*
 ┠➽ *#iklan [dagangan bot :v]*
 ┠➽ *#server [info server]*
-┠➽ *#donasi [donasi yuk]* :)
 ╿
 ┷┯[ Group Commands ]
 ╿
@@ -91,7 +94,7 @@ Berikut dibawah ini adalah menu yang tersedia pada *[Lokub Bot]*
 
 *Total Command* : *40 Commands*
 
-*[Lokub Bot]*`
+*[IG: @vanyourby]*`
 }
 
 exports.textAdmin = () => {
@@ -132,9 +135,8 @@ exports.textDonasi = (pushname) => {
 Hai Kak ${pushname}, Selamat datang di menu donasi
 
 Support Bot Agar Tetap Terus *Aktif* Dan Membantu Kami Membayar *Server* Dengan *Berdonasi* ke:
-Dana: 081380915247
-OVO: 082260756087
-PULSA TELKOMSEL: 081282810290
+Dana/Gopa/Linkaja/Pulsa : 082111237689
+OVO: 085805215947
 
 *Menerima donasi berapapun jumlahnya 🙏 Terima Kasih.*`
 }
@@ -209,29 +211,9 @@ Contoh : *#fetish boobs*
 exports.textIklan = (pushname) => {
     return `
 Hai kak ${pushname}, selamat datang di menu iklan.
-
-Disini saya mau menawarkan *Jasa Sosial Media* dibeli ya kak🙏
-
-📺 *Lokub Shop X SSMPEDIA* 📺
-
-*Menjual Kebutuhan sosial media*
-
-Apa saja yang @ssmpedia jual? :
-
-- *Follower Refill/Non refill,Indo/Luar*
-- *Like Indo/Luar,Video,Like,IGTV*
-- *Views Instagram 1K Hanya Seribu Rupiah*
-- *Views Live Instagram,Comment,Like*
-- *Subscriber Youtube,Views,Like,Dislike*
-- *Komentar Instagram,Centang biru,Orang luar,Custom Comment DLL*
-- *DLL*
-
-*Untuk Daftar Harga Cek Link Instagram Dibawah*
-
-Bila Berminat Beli, Bisa :
-
-Chat Wa kesini: https://wa.me/6281282810290
-Dm Instagram: https://www.instagram.com/ssmpedia
+Mau jualanmu terpampang disini? Hubungi
+Chat Wa kesini: https://wa.me/6282111237689
+Dm Instagram: https://www.instagram.com/vanyourby
 `
 }
 
