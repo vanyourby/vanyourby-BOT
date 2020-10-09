@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/shansekai/Sansekai-BOT"><img src="https://raw.githubusercontent.com/shansekai/Sansekai-BOT/master/anime/original.jpg"></a>
+  <a href="https://github.com/vanyourby/vanyourby-BOT"><img src="https://raw.githubusercontent.com/shansekai/Sansekai-BOT/master/anime/original.jpg"></a>
   <br>
-  Sansekai BOT Whatsapp
+  VANYOURBY BOT Whatsapp
  <br>
   </h1>
 
@@ -14,7 +14,7 @@ This project require NodeJS v12.
 Clone this project
 
 ```bash
-> git clone https://github.com/shansekai/Sansekai-BOT
+> git clone https://github.com/vanyourby/vanyourby-BOT
 > cd imageToSticker
 ```
 
@@ -94,4 +94,5 @@ Fix Stuck on linux, install google chrome stable:
 <li>https://github.com/open-wa/wa-automate-nodejs<br>
 <li>https://github.com/YogaSakti/imageToSticker<br>
 <li>https://github.com/MhankBarBar/whatsapp-bot
+<li>https://instagram.com/ahdalvi_
 </li>
