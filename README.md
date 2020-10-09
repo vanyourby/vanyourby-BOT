@@ -15,7 +15,7 @@ Clone this project
 
 ```bash
 > git clone https://github.com/vanyourby/vanyourby-BOT
-> cd imageToSticker
+> cd vanyourby-BOT
 ```
 
 Install the dependencies:
